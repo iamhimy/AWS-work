@@ -1,0 +1,15 @@
+step1 : Create a RDS in AWS 
+step2 : Create a ec2 instance where you want to run your WOrdpress application
+step3 : login in ec2
+step4 : run following commands :
+        yum install httpd
+        systemctl start httpd
+        cd /var/www/html
+        wget https://wordpress.org/latest.tar.gz
+        tar -xzf latest.tar.gz
+ step5 : now allowoverride all in conf file
+ step6 : yum install mysql
+         yum install php
+ step7 : access the application through browser
+ step8 : give endpoint of amazon RDS 
+
